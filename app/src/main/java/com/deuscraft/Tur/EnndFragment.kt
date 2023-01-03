@@ -33,7 +33,7 @@ class EnndFragment : Fragment() {
             var currentPoint = Random.nextInt(from = 100, until = 5000)
             currentPoint = fakeFun(currentPoint)
 
-            if (currentPoint == 3333){
+            if (currentPoint == 33333){
                 lucky()
             }
 

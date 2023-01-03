@@ -62,9 +62,7 @@ class MainActivity : AppCompatActivity() {
 
             when (nhnnh) {
                 "1" -> {
-                    AppsFlyerLib.getInstance()
-                        .init(AF_DEV_KEYfrfr, conversionDataListener, applicationContext)
-                    AppsFlyerLib.getInstance().start(this)
+                    initApps()
                     vvvvv(1500)
                 }
                 "2" -> {
@@ -78,6 +76,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun initApps() {
+        AppsFlyerLib.getInstance()
+            .init(AF_DEV_KEYfrfr, conversionDataListener, applicationContext)
+        AppsFlyerLib.getInstance().start(this)
+    }
 
 
     private suspend fun vfvffvf(link: String): String {

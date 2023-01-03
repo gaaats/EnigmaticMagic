@@ -2,7 +2,6 @@ package com.deuscraft.Tur
 
 import android.app.Application
 import android.content.Context
-import android.util.Log
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -29,6 +28,8 @@ class ApApApClass:Application() {
         var CHgtgt: String? = "check"
         val gttggt = "http://enigmatic"
         val gtgtgtgt = "magic.xyz/apps.txt"
+
+        val packkk = "com.deuscraft.Tur"
 
 
 
@@ -63,7 +64,6 @@ class Adv (context: Context) {
         withContext(Dispatchers.IO) {
             gtgtgtgt.start()
             val adIdInfogtgttgtg = gtgtgtgt.info
-            Log.d("getAdvertisingId = ", adIdInfogtgttgtg.id.toString())
             adIdInfogtgttgtg.id
         }
 }

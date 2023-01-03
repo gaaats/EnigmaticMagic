@@ -53,8 +53,6 @@ class InfoFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         try {
-            jujujjujju.root.background.alpha = 215
-
             jujujjujju.btnImgExitInfo.setOnClickListener {
                 kpkpkpkp()
             }

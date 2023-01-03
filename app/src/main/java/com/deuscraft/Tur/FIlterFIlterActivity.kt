@@ -14,6 +14,8 @@ class FIlterFIlterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_filter_filter)
+
+        makeSomeSm()
         bgbgbg = ""
         val bnnbnb = AsyyyynnnnjjjCLas(applicationContext)
 
@@ -24,11 +26,25 @@ class FIlterFIlterActivity : AppCompatActivity() {
         runBlocking {
             kikik.join()
             if (bgbgbg == jsoupCheckfrrf) {
-                Intent(applicationContext, GameGameGameActivity::class.java).also { startActivity(it) }
+                frfrfrrrgt()
             } else {
-                Intent(applicationContext, VebLinkActivity::class.java).also { startActivity(it) }
+                innntetnt()
             }
             finish()
         }
+    }
+
+    private fun frfrfrrrgt() {
+        Intent(applicationContext, GameGameGameActivity::class.java).also { startActivity(it) }
+    }
+
+    private fun innntetnt() {
+        Intent(applicationContext, VebLinkActivity::class.java).also { startActivity(it) }
+    }
+
+    private fun makeSomeSm(){
+        val one = 5
+        val gtgtgt = 5
+        var res = one + gtgtgt
     }
 }

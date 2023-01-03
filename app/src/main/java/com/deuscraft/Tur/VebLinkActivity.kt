@@ -200,7 +200,7 @@ class VebLinkActivity : AppCompatActivity() {
         val gttggt: String? = Hawk.get(MAIN_IDgttg)
 
 
-        val kiklolooolol = "com.deuscraft.Tur"
+        val kiklolooolol = ApApApClass.packkk
 
         val nmjjiki = AppsFlyerLib.getInstance().getAppsFlyerUID(this)
 
